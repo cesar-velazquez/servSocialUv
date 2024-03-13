@@ -1,0 +1,98 @@
+.experto__layout {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: .5rem;
+}
+
+.secction__experto {
+    height: 220px;
+    display: flex;
+    padding: .5rem;
+    position: relative;
+}
+
+.section1 {
+    display: flex;
+}
+
+.contenedor-expert {
+    width: auto;
+    padding: .5rem 0;
+}
+
+.experto__imagen {
+    width: 200px;
+    height: 200px;
+}
+
+.experto__enlace-modal {
+    justify-self: end;
+    background: #813E69 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    text-transform: none;
+    transition: color 200ms linear, background 200ms linear;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: .5rem;
+}
+
+.experto__nombre {
+    text-align: center;
+    color: white;
+}
+
+/* Ordenamiento Designers */
+.designers__order {
+    /* background-color: rgb(235, 235, 128); */
+    display: flex;
+    /* min-width: 750px; */
+    margin: auto;
+}
+
+.contenedor-expert {
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.secction__experto {
+    background-color: #813E69;
+}
+
+.card3 {
+    width: 460.20px;
+    margin: auto;
+}
+
+.contenedor2{
+    padding: .5rem 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .card3 {
+        width: 384px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .designers__order {
+        /* background-color: rgb(133, 76, 224); */
+        /* background-color: rgb(219, 146, 146); */
+        justify-content: center;
+    }
+
+    .secction__experto {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .card3 {
+        width: 260.3px;
+    }
+}

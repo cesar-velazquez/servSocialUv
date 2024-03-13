@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+    .presentacion__titulo {        
+        left: 0%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mostrar {
+        display: none;
+    }
+}
